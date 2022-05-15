@@ -106,8 +106,7 @@ section {
     width: 400px;
     height: 200px;
     border-top: var(--third-color) solid 5px;
-    border-bottom: var(--third-color) solid 5px;
-    
+    border-bottom: var(--third-color) solid 5px;    
 }
 
 .hobbycard h3 {
@@ -258,4 +257,8 @@ footer {
     .ProjectContent {
         justify-content: center;
     }
+    header h1 {
+        max-width: 100%;
+        margin: auto;
+    } 
 }
