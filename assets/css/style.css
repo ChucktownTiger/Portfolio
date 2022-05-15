@@ -72,6 +72,7 @@ section {
     max-width: 300px;
     max-height: 300px;
     border-radius: 25px;
+    margin: auto 0;
 }
 
 .Hobbies {
@@ -242,6 +243,9 @@ footer {
     .Hobbies {
         display: block;
     }
+    .HobbyContent {
+        justify-content: center;
+    }
     .About-Me {
         display: block;
     }
@@ -250,5 +254,8 @@ footer {
         }
     .projects {
         display: block;
+    }
+    .ProjectContent {
+        justify-content: center;
     }
 }
