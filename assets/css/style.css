@@ -20,7 +20,7 @@ header h1 {
 }
 
 header nav ul li a{
-    margin: 20px 30px;
+    margin: 20px 30px 20px 0px;
     color: var(--third-color);
 }
 
@@ -33,41 +33,80 @@ header nav ul {
 }
 
 body{
-    background-color: var(--second-color);
+    background-color: var(--background-color);
     color: var(--main-color);
 }
 
 section {
-    border: var(--third-color) solid 5px;
-    border-radius: 20px;
     margin-top: 50px;
-}
-
-section div {
-    display: flex;
 }
 
 section h2 {
     min-width: 20%;
     text-align: center;
+    font-size: 200%;
+    margin: auto;
 }
 
-.About-Me h2 {
-    margin-top: 125px;
+.About-Me {
+    display: flex;
+}
+.AM-Content {
+    border: var(--third-color) solid 5px;
+    border-radius: 25px;
+    display: flex;
+    background-color: var(--second-color);
 }
 
 .About-Me p {
-    text-align: center;
+    margin: auto 10px;
+    text-align: left;
+    font-size: 125%;
 }
 
 .About-Me img {
     max-width: 300px;
     max-height: 300px;
+    border-radius: 25px;
 }
 
+.Hobbies {
+    display: flex;
+    display: flexbox;
+    flex: wrap;
+}
 .hobbycard {
+    min-width: 400px;
     display: flex;
     flex-direction: column;
+    margin: 0 10px;
+    max-width: 25%;
+    display: flex;
+    flex: wrap;
+    border: var(--third-color) solid 5px;
+    border-radius: 25px;
+    background-color: var(--second-color);
+}
+
+.hobbycard img {
+    width: 400px;
+    height: 200px;
+    border-top: var(--third-color) solid 5px;
+    border-bottom: var(--third-color) solid 5px;
+    
+}
+
+.hobbycard h3 {
+    text-align: center;
+    font-size: 150%;    
+}
+
+.hobbycard p {
+    font-size: 125%;
+    margin: auto 10px;
+    }
+.hobbycard p a {
+    color: var(--third-color);
 }
 
 footer {
