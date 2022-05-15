@@ -50,7 +50,6 @@ section {
 
 .About-Me h2 {
     min-width: 20%;
-    max-width: 21%;
     text-align: center;
     font-size: 200%;
     margin: auto;
@@ -60,10 +59,11 @@ section {
     border-radius: 25px;
     display: flex;
     background-color: var(--second-color);
+    margin-right: 20px;
 }
 
 .About-Me p {
-    margin: auto 10px;
+    margin: 10px 10px;
     text-align: left;
     font-size: 125%;
 }
@@ -80,7 +80,6 @@ section {
 
 .Hobbies h2 {
     min-width: 20%;
-    max-width: 21%;
     text-align: center;
     font-size: 200%;
     margin: auto;
@@ -130,7 +129,6 @@ section {
 
 .projects h2 {
     min-width: 20%;
-    max-width: 21%;
     text-align: center;
     font-size: 200%;
     margin: auto;
@@ -203,6 +201,7 @@ section {
 
 .Contact {
     display: flex;
+    margin-right: 20px;
     }
     
 .Contact h2 {
@@ -239,11 +238,17 @@ footer {
     border-top: var(--third-color) solid 3px;
 }
 
-@media screen and (max-width: 768px) {
-    nav ul li {
-      flex-direction: column;
+@media (max-width: 768px) {
+    .Hobbies {
+        display: block;
     }
-    section {
-        flex-direction: column;
+    .About-Me {
+        display: block;
     }
-  }
+    .Contact {
+        display: block;
+        }
+    .projects {
+        display: block;
+    }
+}
