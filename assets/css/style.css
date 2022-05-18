@@ -238,7 +238,7 @@ footer {
     border-top: var(--third-color) solid 3px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .Hobbies {
         display: block;
     }
